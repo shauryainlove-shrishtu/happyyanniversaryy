@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>A Special Surprise For You ✨</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><style>*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}body{background:linear-gradient(135deg,#f8e1f4,#e0c3f7,#c2e6ff);background-size:400% 400%;animation:gradientBackground 15s ease infinite;min-height:100vh;overflow-x:hidden;position:relative}.container{max-width:800px;margin:auto;padding:20px;z-index:10;opacity:0;transform:translateY(20px);animation:fadeIn 3s forwards .5s}header{text-align:center;margin-bottom:40px}h1{font-size:2.5rem;color:#6a4c93;margin-bottom:15px;text-shadow:0 0 10px rgba(255,255,255,.8)}.letter-container{background:rgba(255,255,255,.7);border-radius:20px;padding:30px;box-shadow:0 0 20px rgba(106,76,147,.3);margin-bottom:40px;position:relative;overflow:hidden}.letter-container:before{content:'';position:absolute;inset:0;border-radius:20px;box-shadow:inset 0 0 15px rgba(255,215,232,.7)}.letter{font-size:1.2rem;line-height:1.6;color:#333;position:relative;z-index:2;min-height:200px}.video-container{display:none;position:relative;width:100%;padding-top:56.25%;margin-bottom:40px;border-radius:15px;overflow:hidden;box-shadow:0 0 20px rgba(106,76,147,.3),0 0 30px rgba(255,215,232,.5)}.video-container iframe{position:absolute;inset:0;width:100%;height:100%;border:none}.surprise-button-container{text-align:center;margin:30px 0}.surprise-button{background:linear-gradient(45deg,#ff9a9e,#fad0c4,#fad0c4,#a18cd1);background-size:300% 300%;animation:gradientButton 5s ease infinite;color:#fff;font-size:1.5rem;font-weight:700;padding:15px 40px;border:none;border-radius:50px;cursor:pointer;box-shadow:0 5px 20px rgba(161,140,209,.5);transition:.3s;position:relative}.surprise-button:before{content:'';position:absolute;inset:-5px;border-radius:55px;background:linear-gradient(45deg,#ffccf9,#b28cff,#b28cff,#9cecff);background-size:300% 300%;animation:gradientButton 5s ease infinite;z-index:-1;opacity:.6;filter:blur(8px)}.surprise-button:hover{transform:translateY(-3px) scale(1.05);box-shadow:0 8px 25px rgba(161,140,209,.7)}.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);display:flex;justify-content:center;align-items:center;z-index:1000;opacity:0;visibility:hidden;transition:.3s}.modal{background:#fff;width:90%;max-width:600px;border-radius:20px;padding:30px;transform:scale(.8);transition:.3s;box-shadow:0 0 30px rgba(255,215,232,.8);text-align:center;position:relative}.modal-overlay.active{opacity:1;visibility:visible}.modal-overlay.active .modal{transform:scale(1)}.modal-close{position:absolute;top:15px;right:15px;font-size:24px;color:#6a4c93;background:none;border:none;cursor:pointer}.playlist{background:rgba(255,255,255,.9);border-radius:15px;padding:20px;max-height:300px;overflow-y:auto}.playlist-item{display:flex;align-items:center;margin-bottom:10px;padding:10px;border-radius:10px;background:rgba(240,240,255,.7);transition:.2s}.playlist-item:hover{background:rgba(225,225,255,.9);transform:translateX(5px)}.playlist-item img{width:40px;height:40px;border-radius:50%;margin-right:15px;object-fit:cover}.playlist-item-info{flex-grow:1;text-align:left}.playlist-item-title{font-weight:700;color:#6a4c93}.playlist-item-artist{font-size:.9rem;color:#888}.playlist-item-play{background:none;border:none;color:#6a4c93;cursor:pointer;font-size:1.2rem}.back-button{display:inline-block;margin-top:20px;padding:10px 20px;background:rgba(255,255,255,.7);border:2px solid #6a4c93;color:#6a4c93;border-radius:30px;text-decoration:none;font-weight:700;transition:.3s}.back-button:hover{background:#6a4c93;color:#fff}.floating-element{position:absolute;pointer-events:none;opacity:.7;animation:float ease-in-out infinite alternate}.music-controls{position:fixed;bottom:20px;right:20px;z-index:100;background:rgba(255,255,255,.7);border-radius:50%;width:50px;height:50px;display:flex;justify-content:center;align-items:center;box-shadow:0 0 10px rgba(106,76,147,.3);cursor:pointer;transition:.3s}.music-controls:hover{transform:scale(1.1)}.music-controls i{color:#6a4c93;font-size:24px}.cursor-effect{position:absolute;width:15px;height:15px;border-radius:50%;background:rgba(255,182,193,.7);pointer-events:none;z-index:1000;transform:translate(-50%,-50%);transition:opacity .5s;opacity:0}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}@keyframes gradientBackground{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes gradientButton{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes float{from{transform:translateY(0) rotate(0)}to{transform:translateY(-20px) rotate(5deg)}}@media(max-width:768px){h1{font-size:2rem}.letter{font-size:1rem}.surprise-button{font-size:1.2rem;padding:12px 30px}}</style></head>
+<body>
+<div class="container">
+<header><h1>For My LOVE ❤️</h1></header>
+<div class="letter-container"><div class="letter" id="typed-text"></div></div>
+<div class="video-container"><iframe src="about:blank"></iframe></div>
+<div class="surprise-button-container"><button class="surprise-button" id="surprise-button">Click for a Surprise! 🎁</button></div>
+<div class="navigation"><a href="javascript:history.back()" class="back-button"><i class="fas fa-arrow-left"></i> Back to Birthday Cake</a></div>
+</div>
+
+<div class="modal-overlay" id="modal-overlay">
+<div class="modal">
+<button class="modal-close" id="modal-close">×</button>
+<h2>🎉 Your Special Surprise! 🎉</h2>
+<div style="margin:40px 0;text-align:center">
+    <a href="https://youtu.be/TbGEQdhi_eg?feature=shared"
+       target="_blank"
+       style="text-decoration:none;color:#6a4c93;font-weight:bold;font-size:1.3rem;">
+       
+        <i class="fab fa-youtube" style="font-size:60px;color:#ff0000;"></i><br>
+        Click Here ❤️
+    </a>
+</div>
+<a href="#" download class="back-button" style="background:#ffb6c1;border-color:#ffb6c1;color:#fff"><i class="fas fa-download"></i> Download Your Digital Gift</a>
+</div></div>
+
+<div class="music-controls" id="music-toggle"><i class="fas fa-volume-mute" id="music-icon"></i></div>
+
+<audio id="click-sound" preload="auto"><source src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_bb630cc098.mp3?filename=cute-notification-ringtone-1-173850.mp3" type="audio/mpeg"></audio>
+<audio id="background-music" loop><source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=relaxing-145038.mp3" type="audio/mpeg"></audio>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvas-confetti/1.5.1/confetti.browser.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{setTimeout(()=>document.querySelector('.container').style.opacity=1,500);
+new Typed('#typed-text',{strings:[`MERI JAANN!! 🎂✨ 
+    HAPPY 4 MONTHS TO US, haina? Can't believe humko      30x4 + 2 = 122 days hogye ek sth🥹❤. The way you smile, your little cute se pouts, your voice, aapka gussa, everything has made me fall in love just a little more than yesterday, and i hope for the next BIG things which we'll experience in life, you'll be by my side, hand-in-hand. Ik long distance is hard, but for you i can wait a eternity, cause you're the ONLY FISH IN THE SEA👀, i want in my life, any life❤. So the next time we're holding hands, whenever I'll propose to you, the day we travel, the day we have a BOY or a Girl and become 'mumma-papa', the day we stand together in our own wedding making aunties jealous😏, the day we have our first SEx- too far?😳 But just remember that whatever we'll do in life, we'll experience it together❤, being HUSBAND AND WIFE, and look back at two kids falling in love at 16. So keep loving me, and I'll love you more. Keep sending me kisses, Apne nakre dikhana band mtt krna kbhi😘. I want the ONLY shrishti, my Shrishti mwah❤ Here's to 60 more years 😘 PKKA
+ YOURS SHAURYA`],typeSpeed:30});
+const modal=document.getElementById('modal-overlay'),clickSound=document.getElementById('click-sound');
+document.getElementById('surprise-button').onclick=()=>{clickSound.play();modal.classList.add('active');confetti({particleCount:100,spread:70,origin:{y:.6}})};
+document.getElementById('modal-close').onclick=()=>modal.classList.remove('active');
+const music=document.getElementById('background-music'),icon=document.getElementById('music-icon');let playing=false;
+document.getElementById('music-toggle').onclick=()=>{playing?(music.pause(),icon.className='fas fa-volume-mute'):(music.play(),icon.className='fas fa-volume-up');playing=!playing};
+document.addEventListener('mousemove',e=>{let c=document.createElement('div');c.className='cursor-effect';c.style.left=e.pageX+'px';c.style.top=e.pageY+'px';document.body.appendChild(c);setTimeout(()=>{c.style.opacity=1;setTimeout(()=>{c.style.opacity=0;setTimeout(()=>c.remove(),500)},300)},10)});
+['❤️','✨','🧸','⭐'].forEach(()=>{let d=document.createElement('div');d.className='floating-element';d.textContent=['❤️','✨','🧸','⭐'][Math.floor(Math.random()*4)];d.style.left=Math.random()*innerWidth+'px';d.style.top=Math.random()*innerHeight+'px';d.style.fontSize=20+Math.random()*15+'px';d.style.animationDuration=5+Math.random()*10+'s';document.body.appendChild(d)});
+});
+</script>
+</body></html>
